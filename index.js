@@ -54,7 +54,7 @@ function reset(){
 // Keypress function to initiate game start
 document.addEventListener("keypress",function(){
     if (!started) {
-        
+        document.querySelector("#game-title").innerHTML = "Level " + level;
         nextSequence();
         started = true;
     }
