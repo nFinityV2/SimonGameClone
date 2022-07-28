@@ -39,6 +39,8 @@ function checkAnswer(currentLevel){
         setTimeout(() => {
             wrongBtn.classList.remove("game-over");
         }, 200);
+
+        reset();
     }
 }
 
